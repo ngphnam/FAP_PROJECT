@@ -88,6 +88,7 @@ public class ChangeSessionController extends HttpServlet {
             response.sendRedirect("weeklyTable");
             return;
         }
+        //asdasd
         SessionDBContext sdb = new SessionDBContext();
         String sid = request.getParameter("sid");
         String slid = request.getParameter("slid");
